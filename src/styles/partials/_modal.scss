@@ -1,5 +1,40 @@
 .modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
   &__button {
     color: rgb(224, 42, 29);
   }
+
+  .modal__button {
+    position: relative;
+    top: 80%;
+    left: 17%;
+    z-index: 1;
+  }
+  .modal__button-top {
+    position: relative;
+    top: 10%;
+    left: 43%;
+    z-index: 1;
+    color: rgb(224, 42, 29);
+  }
+  .modal__close-button {
+    left: 30%;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 76%;
+  }
+}
+.chart {
+  position: fixed;
+  width: 90%;
+  height: 86%;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
 }

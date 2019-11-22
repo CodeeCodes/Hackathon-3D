@@ -1,0 +1,12 @@
+.chart {
+  margin: 0 5%;
+  background-color: #292524;
+  opacity: 0.95;
+  &__heading {
+    text-align: center;
+    color: rgb(224, 42, 29);
+  }
+}
+.chartjs-render-monitor {
+  border-radius: 4px;
+}

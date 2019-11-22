@@ -5,7 +5,8 @@
 html,
 body {
   margin: 0;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: #323232;
   height: 100vh;
   box-sizing: border-box;
@@ -20,6 +21,8 @@ body {
 
 /* Imports */
 
-@import "./partials/breakpoints"; 
-@import "./partials/fonts"; 
-@import "./partials/header"; 
+@import "./partials/breakpoints";
+@import "./partials/fonts";
+@import "./partials/header";
+@import "./partials/chartRatings";
+@import "./partials/modal";

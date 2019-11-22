@@ -1,7 +1,7 @@
 html,
 body {
   margin: 0;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: #323232;
   height: 100vh;
   -webkit-box-sizing: border-box;
@@ -34,5 +34,24 @@ body {
   .header {
     margin: 0;
   }
+}
+
+.chart {
+  margin: 0 5%;
+  background-color: #292524;
+  opacity: 0.95;
+}
+
+.chart__heading {
+  text-align: center;
+  color: #e02a1d;
+}
+
+.chartjs-render-monitor {
+  border-radius: 4px;
+}
+
+.modal__button {
+  color: #e02a1d;
 }
 /*# sourceMappingURL=main.css.map */

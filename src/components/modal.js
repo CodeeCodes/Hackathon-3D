@@ -32,7 +32,7 @@ export default class Main extends Component {
         <Modal
           isOpen={this.state.showModal}
           contentLabel='Graph Model'
-          className='modal__button'>
+          className='modal'>
           <Chart />
           <button onClick={this.handleCloseModal} className='modal__button'>
             CLOSE

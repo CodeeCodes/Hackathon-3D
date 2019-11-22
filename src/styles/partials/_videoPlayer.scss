@@ -1,0 +1,32 @@
+.videoPlayer {
+    margin: 0; 
+    padding: 0; 
+
+    &__wrapper {
+        margin: 0;
+        position: relative;
+        padding-bottom: 20px;
+        background-color: black;
+    }
+
+    &__player {
+        width: 100%; 
+    }
+
+    &__underBar {
+        width: 100%; 
+        padding: 0 20px 0 20px; 
+        color: white;
+        position: absolute; 
+        bottom: 10px; 
+        display: flex; 
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    &__ratings {
+        background-color: black;
+        border: none; 
+        color: red; 
+    }
+}

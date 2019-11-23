@@ -1,32 +1,48 @@
 .videoPlayer {
-    margin: 0; 
-    padding: 0; 
+  margin: 0;
+  padding: 0;
+  &__social {
+    background-color: white;
+    border: none;
+    color: red;
+    position: relative;
+    left: 80%;
+  }
+  &__wrapper {
+    margin: 0;
+    position: relative;
+    padding-bottom: 20px;
+    background-color: black;
+  }
 
-    &__wrapper {
-        margin: 0;
-        position: relative;
-        padding-bottom: 20px;
-        background-color: black;
-    }
+  &__player {
+    width: 100%;
+  }
 
-    &__player {
-        width: 100%; 
-    }
+  &__underBar {
+    width: 100%;
+    padding: 0 20px 16px 20px;
+    color: black;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-    &__underBar {
-        width: 100%; 
-        padding: 0 20px 0 20px; 
-        color: white;
-        position: absolute; 
-        bottom: 10px; 
-        display: flex; 
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    &__ratings {
-        background-color: black;
-        border: none; 
-        color: red; 
-    }
+  &__ratings {
+    background-color: white;
+    border: none;
+    color: red;
+    position: relative;
+    height: 20px;
+    margin-top: 16px;
+  }
+}
+.videoPlayer__flex {
+  display: flex;
+  width: 100%;
+  p {
+    margin-right: 20%;
+    margin-left: 3%;
+  }
 }

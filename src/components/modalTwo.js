@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Modal from "react-modal";
 import ReactDOM from "react-dom";
-import Chart from "./chartRatings";
+import Friends from "./friends";
 import CloseButton from "../assets/close_button.png";
 Modal.setAppElement(document.getElementById("root"));
 
@@ -28,11 +28,10 @@ export default class Main extends Component {
     return (
       <div>
         <div className='videoPlayer__flex'>
-          <p>Duration | Date | Location</p>
           <button
-            className='videoPlayer__ratings'
+            className='videoPlayer__social'
             onClick={this.handleOpenModal}>
-            STATISTICS
+            SOCIAL
           </button>
         </div>
 
@@ -43,19 +42,16 @@ export default class Main extends Component {
             className='modal'>
             <button
               onClick={this.handleCloseModal}
-              className='modal__button-top'>
+              className='modal__button-top-social'>
               SHARE
             </button>
-            <Chart />
+            <Friends />
             <img
               src={CloseButton}
               onClick={this.handleCloseModal}
               alt='button'
-              className='modal__close-button'
+              className='modal__close-button-social'
             />
-            <button onClick={this.handleCloseModal} className='modal__button'>
-              CLOSE
-            </button>
           </Modal>
         </div>
       </div>
